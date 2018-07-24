@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Non-Contiguous Cartogram</title>
+<style>
+
+.land {
+  fill: #fff;
+  stroke: #ccc;
+}
+
+.state {
+  fill: #ccc;
+  stroke: #666;
+}
+
+</style>
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://d3js.org/topojson.v1.min.js"></script>
+<script>
+
+var path = d3.geo.path();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", 1200)
+    .attr("height", 700);
+
+d3.json("data/boundaries.json", function(error, us) {
+  if (error) throw error;
+
+  svg.append("path")
+      .datum(topojson.feature(us, us.objects.boundaries))
+      .attr("class", "land")
+      .attr("d", path);
+});
+
+</script>
