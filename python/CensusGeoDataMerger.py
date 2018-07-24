@@ -44,10 +44,8 @@ for neighborhood in neighborhoods:
         formatted_key = key.lower().replace(' ', '_').replace('+', '').replace('\'', '')
         
         neighborhood_census_data_dict[formatted_key] = value
-    neighborhood['census_data'] = neighborhood_census_data_dict
+    neighborhood_properties['census_data'] = neighborhood_census_data_dict
     neighborhoods_with_census_data.append(neighborhood)
-
-boundaries_data['features'] = neighborhoods_with_census_data
 
 with open('data/boundaries-with-census-data.json', 'w') as boundaries_with_census_data:
     json.dump(boundaries_data, boundaries_with_census_data, indent=1)
