@@ -19,55 +19,93 @@
     padding: 4px;
     border-radius: 4px;
     color: black;
+    opacity: 0.8;
 }
 
 </style>
 <body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-<script src="https://d3js.org/topojson.v2.min.js"></script>
-<script>
+<script src="https://d3js.org/topojson.v2.min.js"></script><script>
 
-var width = 1200;
+var width = 400;
+var percentages_bars_width = 200;
+var percentages_width = 400;
+var percentages_bars_height = 400;
 var height = 700;
 
 d3.json("data/boundaries-with-census-data.json", function(error, us) {
   if (error) throw error;
   
   var center = d3.geoCentroid(topojson.feature(us, us.objects.boundaries));
-  var projection = d3.geoMercator().center(center).translate([width / 4, height / 2]).scale(50000);
+  var projection = d3.geoMercator().center(center).translate([1.25 * width / 2, height / 2]).scale(50000);
   var path = d3.geoPath().projection(projection);
 
   var tooltip = d3.select("body")
     .append("div")
     .attr('class', 'tooltip');
 
-  var colors = d3.scaleLinear()
+  var green_to_red = d3.scaleLinear()
     .domain([-.5, 0, .5])
     .range(["green", "lightgray", "red"]);
+  var red_to_green = d3.scaleLinear()
+    .domain([-.5, 0, .5])
+    .range(["red", "lightgray", "green"]);
+  var percentages_x = d3.scaleLinear()
+    .domain([1, 6])
+    .range([0, percentages_bars_width])
+  var percentages_y = d3.scaleLinear()
+    .domain([0, 100])
+    .range([percentages_bars_height, 0])
 
-  var svg = d3.select("body")
+  var map = d3.select("body")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
 
-  svg.selectAll('.community-area')
+  var percentages_chart = d3.select("body")
+    .append("svg")
+    .attr("width", percentages_width)
+    .attr("height", height)
+
+  map.selectAll('.community-area')
 		.data(topojson.feature(us, us.objects.boundaries).features)
 		.enter()
 		.append('path')
 		.attr('class', 'community-area')
 		.attr('d', path)
 		.on('mouseover', function(d){
-			return tooltip.style("visibility", "visible").text(
-        'community name = ' + d.properties.pri_neigh)
-		})
-    .on("mousemove", function(d) {
-      var hardship_index = d.properties.census_data.hardship_index;
+      var census_data = d.properties.census_data;
+      var hardship_index = census_data.hardship_index;
       var color_to_return = (hardship_index - 50) / 100.0;
-      
       d3.select(this)
-        .style("fill", colors([color_to_return]))
-      
+        .style("fill", green_to_red([color_to_return]))
+
+      var census_data_percentages = [
+        hardship_index,
+        census_data.percent_aged_under_18_or_over_64,
+        census_data.percent_aged_16_unemployed,
+        census_data.percent_households_below_poverty,
+        census_data.percent_aged_25_without_high_school_diploma,
+        census_data.percent_of_housing_crowded
+      ]
+
+      percentages_chart
+        .attr("width", percentages_width)
+        .attr("height", height)
+        .selectAll("rect")
+          .data(census_data_percentages)
+            .enter().append("rect")
+            .attr("width", 20)
+            .attr("height",function(d) { return percentages_bars_height - percentages_y(d); })
+            .attr("x",function(d,i) { return 100 + percentages_x(i); })
+            .attr("y",function(d) { return 175 + percentages_y(d); })
+            .style("fill", function(d) { return green_to_red([d / 100.0 - 0.3]); });
+
+			return tooltip.style("visibility", "visible").text(
+        'community name = ' + d.properties.pri_neigh + '')
+		})
+    .on("mousemove", function(d) {      
       return tooltip.style("top", (event.pageY - 30) + "px")
         .style("left", event.pageX + "px")
     })
@@ -75,8 +113,11 @@ d3.json("data/boundaries-with-census-data.json", function(error, us) {
       var hardship_index = d.properties.census_data.hardship_index;
       var color_to_return = (hardship_index - 50) / 150.0;
       
+      d3.selectAll("rect")
+        .remove();
+
       d3.select(this)
-        .style("fill", colors([color_to_return]))
+        .style("fill", green_to_red([color_to_return]))
     })
   });
 
