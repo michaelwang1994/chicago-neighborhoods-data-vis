@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Non-Contiguous Cartogram</title>
+<title>Chicago Community Areas (2008-2012 Census Data)</title>
 <style>
 
 .community-area {
@@ -28,10 +28,13 @@
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://d3js.org/topojson.v2.min.js"></script><script>
 
+var margin = 30;
 var width = 400;
 var percentages_bars_width = 200;
 var percentages_width = 400;
 var percentages_bars_height = 400;
+var percentages_y_offset = 175
+var percentages_x_offset = 100
 var height = 700;
 
 d3.json("data/boundaries-with-census-data.json", function(error, us) {
@@ -52,21 +55,49 @@ d3.json("data/boundaries-with-census-data.json", function(error, us) {
     .domain([-.5, 0, .5])
     .range(["red", "lightgray", "green"]);
   var percentages_x = d3.scaleLinear()
-    .domain([1, 6])
-    .range([0, percentages_bars_width])
+    .domain([1, 7])
+    .range([0, percentages_bars_width]);
   var percentages_y = d3.scaleLinear()
     .domain([0, 100])
-    .range([percentages_bars_height, 0])
+    .range([percentages_bars_height, 0]);
 
   var map = d3.select("body")
     .append("svg")
     .attr("width", width)
     .attr("height", height);
 
+  var percentages_x_label = [
+    "Hardship Index",
+    "% Aged <18 or >64",
+    "% Aged >16 and Unemployed",
+    "% Households Below Poverty",
+    "% Aged >25 w/o H.S. Diploma",
+    "% Housing Crowded",
+    "% Per Capita Income (Chicago)"
+  ]
+
   var percentages_chart = d3.select("body")
     .append("svg")
     .attr("width", percentages_width)
     .attr("height", height)
+
+  var x_axis = d3.axisBottom(percentages_x)
+    .tickFormat(function(d, i) {return percentages_x_label[d - 1]})
+
+
+  percentages_chart.append("g")
+    .attr("class", "axis")
+    .attr("transform", "translate(" + (percentages_x_offset - margin) + "," + (percentages_y_offset - margin) + ")")
+    .call(d3.axisLeft(percentages_y));
+  percentages_chart.append("g")
+    .attr("class", "axis")
+    .attr("transform", "translate(" + (percentages_x_offset) + "," + (percentages_y_offset + percentages_bars_height - margin) + ")")
+    .call(x_axis)
+    .selectAll("text")
+      .style("text-anchor", "start")
+      .attr("dx", "10")
+      .attr("dy", "0")
+      .attr("transform", "rotate(65)");
 
   map.selectAll('.community-area')
 		.data(topojson.feature(us, us.objects.boundaries).features)
@@ -87,7 +118,8 @@ d3.json("data/boundaries-with-census-data.json", function(error, us) {
         census_data.percent_aged_16_unemployed,
         census_data.percent_households_below_poverty,
         census_data.percent_aged_25_without_high_school_diploma,
-        census_data.percent_of_housing_crowded
+        census_data.percent_of_housing_crowded,
+        census_data.per_capita_income_percentile
       ]
 
       percentages_chart
@@ -98,10 +130,12 @@ d3.json("data/boundaries-with-census-data.json", function(error, us) {
             .enter().append("rect")
             .attr("width", 20)
             .attr("height",function(d) { return percentages_bars_height - percentages_y(d); })
-            .attr("x",function(d,i) { return 100 + percentages_x(i); })
-            .attr("y",function(d) { return 175 + percentages_y(d); })
-            .style("fill", function(d) { return green_to_red([d / 100.0 - 0.3]); });
-
+            .attr("x",function(d,i) { return percentages_x_offset + percentages_x(i) + margin; })
+            .attr("y",function(d) { return percentages_y_offset - margin + percentages_y(d); })
+            .style("fill", function(d, i) { 
+              if (i == 6) return red_to_green([d / 100.0 - 0.5]);
+              return green_to_red([d / 100.0 - 0.5]); });
+          
 			return tooltip.style("visibility", "visible").text(
         'community name = ' + d.properties.pri_neigh + '')
 		})
