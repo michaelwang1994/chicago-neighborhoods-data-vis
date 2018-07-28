@@ -1,158 +1,139 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>Chicago Community Areas (2008-2012 Census Data)</title>
-<style>
 
-.community-area {
-  fill: white;
-  stroke: gray;
-  stroke-width: 1;
-}
-
-.tooltip {
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    z-index: 10;
-    visibility: hidden;
-    background-color: white;
-    text-align: center;
-    padding: 4px;
-    border-radius: 4px;
-    color: black;
-    opacity: 0.8;
-}
-
-</style>
-<body>
+<link rel="stylesheet" href="css/style.css"></link>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-<script src="https://d3js.org/topojson.v2.min.js"></script><script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
 
-var margin = 30;
-var width = 400;
-var percentages_bars_width = 200;
-var percentages_width = 400;
-var percentages_bars_height = 400;
-var percentages_y_offset = 175
-var percentages_x_offset = 100
-var height = 700;
+<body>
+  <script>
 
-d3.json("data/boundaries-with-census-data.json", function(error, us) {
-  if (error) throw error;
-  
-  var center = d3.geoCentroid(topojson.feature(us, us.objects.boundaries));
-  var projection = d3.geoMercator().center(center).translate([1.25 * width / 2, height / 2]).scale(50000);
-  var path = d3.geoPath().projection(projection);
+  var margin = 30;
+  var width = 400;
+  var percentages_bars_width = 200;
+  var percentages_width = 400;
+  var percentages_bars_height = 400;
+  var percentages_y_offset = 175
+  var percentages_x_offset = 100
+  var height = 700;
 
-  var tooltip = d3.select("body")
-    .append("div")
-    .attr('class', 'tooltip');
+  d3.json("data/boundaries-with-census-data.json", function(error, us) {
+    if (error) throw error;
+    
+    var center = d3.geoCentroid(topojson.feature(us, us.objects.boundaries));
+    var projection = d3.geoMercator().center(center).translate([1.25 * width / 2, height / 2]).scale(50000);
+    var path = d3.geoPath().projection(projection);
 
-  var green_to_red = d3.scaleLinear()
-    .domain([-.5, 0, .5])
-    .range(["green", "lightgray", "red"]);
-  var red_to_green = d3.scaleLinear()
-    .domain([-.5, 0, .5])
-    .range(["red", "lightgray", "green"]);
-  var percentages_x = d3.scaleLinear()
-    .domain([1, 7])
-    .range([0, percentages_bars_width]);
-  var percentages_y = d3.scaleLinear()
-    .domain([0, 100])
-    .range([percentages_bars_height, 0]);
+    var tooltip = d3.select("body")
+      .append("div")
+      .attr('class', 'tooltip');
 
-  var map = d3.select("body")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
+    var green_to_red = d3.scaleLinear()
+      .domain([-.5, 0, .5])
+      .range(["green", "lightgray", "red"]);
+    var red_to_green = d3.scaleLinear()
+      .domain([-.5, 0, .5])
+      .range(["red", "lightgray", "green"]);
+    var percentages_x = d3.scaleLinear()
+      .domain([1, 7])
+      .range([0, percentages_bars_width]);
+    var percentages_y = d3.scaleLinear()
+      .domain([0, 100])
+      .range([percentages_bars_height, 0]);
 
-  var percentages_x_label = [
-    "Hardship Index",
-    "% Aged <18 or >64",
-    "% Aged >16 and Unemployed",
-    "% Households Below Poverty",
-    "% Aged >25 w/o H.S. Diploma",
-    "% Housing Crowded",
-    "% Per Capita Income (Chicago)"
-  ]
+    var map = d3.select("body")
+      .append("svg")
+      .attr("width", width)
+      .attr("height", height);
 
-  var percentages_chart = d3.select("body")
-    .append("svg")
-    .attr("width", percentages_width)
-    .attr("height", height)
+    var percentages_x_label = [
+      "Hardship Index",
+      "% Aged <18 or >64",
+      "% Aged >16 and Unemployed",
+      "% Households Below Poverty",
+      "% Aged >25 w/o H.S. Diploma",
+      "% Housing Crowded",
+      "% Per Capita Income (Chicago)"
+    ]
 
-  var x_axis = d3.axisBottom(percentages_x)
-    .tickFormat(function(d, i) {return percentages_x_label[d - 1]})
+    var percentages_chart = d3.select("body")
+      .append("svg")
+      .attr("width", percentages_width)
+      .attr("height", height)
 
+    var x_axis = d3.axisBottom(percentages_x)
+      .tickFormat(function(d, i) {return percentages_x_label[d - 1]})
 
-  percentages_chart.append("g")
-    .attr("class", "axis")
-    .attr("transform", "translate(" + (percentages_x_offset - margin) + "," + (percentages_y_offset - margin) + ")")
-    .call(d3.axisLeft(percentages_y));
-  percentages_chart.append("g")
-    .attr("class", "axis")
-    .attr("transform", "translate(" + (percentages_x_offset) + "," + (percentages_y_offset + percentages_bars_height - margin) + ")")
-    .call(x_axis)
-    .selectAll("text")
-      .style("text-anchor", "start")
-      .attr("dx", "10")
-      .attr("dy", "0")
-      .attr("transform", "rotate(65)");
+    percentages_chart.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(" + (percentages_x_offset - margin) + "," + (percentages_y_offset - margin) + ")")
+      .call(d3.axisLeft(percentages_y));
+    percentages_chart.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(" + (percentages_x_offset) + "," + (percentages_y_offset + percentages_bars_height - margin) + ")")
+      .call(x_axis)
+      .selectAll("text")
+        .style("text-anchor", "start")
+        .attr("dx", "10")
+        .attr("dy", "0")
+        .attr("transform", "rotate(65)");
 
-  map.selectAll('.community-area')
-		.data(topojson.feature(us, us.objects.boundaries).features)
-		.enter()
-		.append('path')
-		.attr('class', 'community-area')
-		.attr('d', path)
-		.on('mouseover', function(d){
-      var census_data = d.properties.census_data;
-      var hardship_index = census_data.hardship_index;
-      var color_to_return = (hardship_index - 50) / 100.0;
-      d3.select(this)
-        .style("fill", green_to_red([color_to_return]))
+    map.selectAll('.community-area')
+      .data(topojson.feature(us, us.objects.boundaries).features)
+      .enter()
+      .append('path')
+      .attr('class', 'community-area')
+      .attr('d', path)
+      .on('mouseover', function(d){
+        var census_data = d.properties.census_data;
+        var hardship_index = census_data.hardship_index;
+        var color_to_return = (hardship_index - 50) / 100.0;
+        d3.select(this)
+          .style("fill", green_to_red([color_to_return]))
 
-      var census_data_percentages = [
-        hardship_index,
-        census_data.percent_aged_under_18_or_over_64,
-        census_data.percent_aged_16_unemployed,
-        census_data.percent_households_below_poverty,
-        census_data.percent_aged_25_without_high_school_diploma,
-        census_data.percent_of_housing_crowded,
-        census_data.per_capita_income_percentile
-      ]
+        var census_data_percentages = [
+          hardship_index,
+          census_data.percent_aged_under_18_or_over_64,
+          census_data.percent_aged_16_unemployed,
+          census_data.percent_households_below_poverty,
+          census_data.percent_aged_25_without_high_school_diploma,
+          census_data.percent_of_housing_crowded,
+          census_data.per_capita_income_percentile
+        ]
 
-      percentages_chart
-        .attr("width", percentages_width)
-        .attr("height", height)
-        .selectAll("rect")
-          .data(census_data_percentages)
-            .enter().append("rect")
-            .attr("width", 20)
-            .attr("height",function(d) { return percentages_bars_height - percentages_y(d); })
-            .attr("x",function(d,i) { return percentages_x_offset + percentages_x(i) + margin; })
-            .attr("y",function(d) { return percentages_y_offset - margin + percentages_y(d); })
-            .style("fill", function(d, i) { 
-              if (i == 6) return red_to_green([d / 100.0 - 0.5]);
-              return green_to_red([d / 100.0 - 0.5]); });
-          
-			return tooltip.style("visibility", "visible").text(
-        'community name = ' + d.properties.pri_neigh + '')
-		})
-    .on("mousemove", function(d) {      
-      return tooltip.style("top", (event.pageY - 30) + "px")
-        .style("left", event.pageX + "px")
-    })
-    .on("mouseout", function(d) {
-      var hardship_index = d.properties.census_data.hardship_index;
-      var color_to_return = (hardship_index - 50) / 150.0;
-      
-      d3.selectAll("rect")
-        .remove();
+        percentages_chart
+          .attr("width", percentages_width)
+          .attr("height", height)
+          .selectAll("rect")
+            .data(census_data_percentages)
+              .enter().append("rect")
+              .attr("width", 20)
+              .attr("height",function(d) { return percentages_bars_height - percentages_y(d); })
+              .attr("x",function(d,i) { return percentages_x_offset + percentages_x(i) + margin; })
+              .attr("y",function(d) { return percentages_y_offset - margin + percentages_y(d); })
+              .style("fill", function(d, i) { 
+                if (i == 6) return red_to_green([d / 100.0 - 0.5]);
+                return green_to_red([d / 100.0 - 0.5]); });
+            
+        return tooltip.style("visibility", "visible").text(d.properties.pri_neigh)
+      })
+      .on("mousemove", function(d) {      
+        return tooltip.style("top", (event.pageY - 30) + "px")
+          .style("left", (event.pageX + 10)  + "px")
+      })
+      .on("mouseout", function(d) {
+        var hardship_index = d.properties.census_data.hardship_index;
+        var color_to_return = (hardship_index - 50) / 150.0;
+        
+        d3.selectAll("rect")
+          .remove();
 
-      d3.select(this)
-        .style("fill", green_to_red([color_to_return]))
-    })
-  });
+        d3.select(this)
+          .style("fill", green_to_red([color_to_return]))
+      })
+    });
 
-</script>
+  </script>
+</body>

@@ -1,0 +1,18 @@
+.community-area {
+    fill: white;
+    stroke: gray;
+    stroke-width: 1;
+  }
+  
+.tooltip {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    z-index: 10;
+    visibility: hidden;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    color: black;
+    opacity: 0.8;
+  }

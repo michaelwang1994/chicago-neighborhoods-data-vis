@@ -1,6 +1,7 @@
 import urllib2
 from bs4 import BeautifulSoup
 import json
+from WikipediaCommon import normalize_string, one_off_community_area_alternate_names
 
 wikipedia_page = urllib2.urlopen('https://en.wikipedia.org/wiki/Community_areas_in_Chicago').read()
 
@@ -8,16 +9,6 @@ soup = BeautifulSoup(wikipedia_page, 'lxml')
 tables = soup.findAll('table', {'class': 'wikitable'})
 
 neighborhood_to_community_area = {}
-
-def normalize_string(string):
-    return filter(str.isalnum, string.encode('ascii', 'ignore').upper())
-
-one_off_community_area_alternate_names = {
-    'THEGOLDCOAST': 'GOLDCOAST',
-    'WESTLOOPGATE': 'WESTLOOP',
-    'JACKSONPARKHIGHLANDS': 'JACKSONPARK',
-    'SHEFFIELDNEIGHBORS': 'SHEFFIELDDEPAUL',
-    'MONTCLARE': 'MONTCLAIRE'}
 
 for table in tables:
     table_body = table.find('tbody')
