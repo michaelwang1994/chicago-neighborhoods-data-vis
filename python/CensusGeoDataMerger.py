@@ -4,6 +4,7 @@ import json
 census_data = pd.read_csv('data/census_data.csv')[:-1]
 census_data['COMMUNITY AREA NAME'] = census_data['COMMUNITY AREA NAME'].str.replace(' ', '').str.replace('\'', '').str.upper()
 census_data = census_data.set_index('COMMUNITY AREA NAME')
+census_data['PER CAPITA INCOME PERCENTILE'] = census_data['PER CAPITA INCOME'].rank(pct=True) * 100
 
 with open('data/boundaries.json') as boundaries:
     boundaries_data = json.load(boundaries)
