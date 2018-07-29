@@ -8,6 +8,11 @@
 <script src="https://d3js.org/topojson.v2.min.js"></script>
 
 <body>
+  <div class=overlay>
+    <svg class=map></svg>
+    <svg class=chart></svg>
+  </div>
+  <div class=text-body></div>
   <script>
 
   var margin = 30;
@@ -18,6 +23,19 @@
   var percentages_y_offset = 175
   var percentages_x_offset = 100
   var height = 700;
+  var enabled = false;
+
+  var intro = "<b>Chicago Community Area Hardship Index</b><br><br>" + 
+    "Between 2008 and 2012, there was a study done on the 77 community areas of Chicago. " + 
+    "Researchers wanted to see the <b>\"hardship index\"</b> of each community area calculated using the following 6 socioeconomic factors: " +
+    "<li><b>% Aged <18 or >64</b>: indicates dependence.</li>" + 
+    "<li><b>% Aged >16 and Unemployed</b></li>" + 
+    "<li><b>% Households Below Poverty:</b> uses federal poverty line for comparison.</li>" + 
+    "<li><b>% Aged >25 w/o High School (H.S.) Diploma</b></li>" +
+    "<li><b>% Housing Crowded</b>: occupied housing units with more than one person per room.</li>" +
+    "<li><b>Per Capita Income</b>: this estimated by dividing the aggregate income of the census tracts within the community area by the number of residents. Our visualization calculates the percentile of the per capita income within Chicago.</li><br>" +
+    "Feel free to move your mouse over the different community areas to learn more about each area and to see their respective hardship index levels and socioeconomic factors. Try starting with the <b>Loop</b>.<br><br>" +
+    "For more details, please see the <a href=data/Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf target=_blank>dataset description</a>.<br><br>"
 
   d3.json("data/boundaries-with-census-data.json", function(error, us) {
     if (error) throw error;
@@ -26,9 +44,28 @@
     var projection = d3.geoMercator().center(center).translate([1.25 * width / 2, height / 2]).scale(50000);
     var path = d3.geoPath().projection(projection);
 
-    var tooltip = d3.select("body")
-      .append("div")
-      .attr('class', 'tooltip');
+    var map = d3.select(".map")
+      .attr("width", width)
+      .attr("height", height);
+
+    var percentages_chart = d3.select(".chart")
+      .attr("width", percentages_width)
+      .attr("height", height);
+
+    var text_body = d3.select("body")
+      .select(".text-body")
+      .attr("class", "text-body")
+      .html(intro)
+
+    text_body
+      .append("button")
+        .attr("class", "button")
+        .text("Continue")
+        .on("click", function(d) {
+          d3.select(".overlay").style("background-color", "white")
+          d3.selectAll(".community-area").style("fill", "white")
+          enabled = true;
+        })
 
     var green_to_red = d3.scaleLinear()
       .domain([-.5, 0, .5])
@@ -43,11 +80,6 @@
       .domain([0, 100])
       .range([percentages_bars_height, 0]);
 
-    var map = d3.select("body")
-      .append("svg")
-      .attr("width", width)
-      .attr("height", height);
-
     var percentages_x_label = [
       "Hardship Index",
       "% Aged <18 or >64",
@@ -57,11 +89,6 @@
       "% Housing Crowded",
       "% Per Capita Income (Chicago)"
     ]
-
-    var percentages_chart = d3.select("body")
-      .append("svg")
-      .attr("width", percentages_width)
-      .attr("height", height)
 
     var x_axis = d3.axisBottom(percentages_x)
       .tickFormat(function(d, i) {return percentages_x_label[d - 1]})
@@ -79,7 +106,7 @@
         .attr("dx", "10")
         .attr("dy", "0")
         .attr("transform", "rotate(65)");
-
+        
     map.selectAll('.community-area')
       .data(topojson.feature(us, us.objects.boundaries).features)
       .enter()
@@ -87,6 +114,8 @@
       .attr('class', 'community-area')
       .attr('d', path)
       .on('mouseover', function(d){
+        if (!enabled) return;
+
         var census_data = d.properties.census_data;
         var hardship_index = census_data.hardship_index;
         var color_to_return = (hardship_index - 50) / 100.0;
@@ -116,14 +145,14 @@
               .style("fill", function(d, i) { 
                 if (i == 6) return red_to_green([d / 100.0 - 0.5]);
                 return green_to_red([d / 100.0 - 0.5]); });
-            
-        return tooltip.style("visibility", "visible").text(d.properties.pri_neigh)
-      })
-      .on("mousemove", function(d) {      
-        return tooltip.style("top", (event.pageY - 30) + "px")
-          .style("left", (event.pageX + 10)  + "px")
-      })
+
+        text_body
+          .html("<b>" + d.properties.pri_neigh + "</b>");
+        })
+
       .on("mouseout", function(d) {
+        if (!enabled) return;
+
         var hardship_index = d.properties.census_data.hardship_index;
         var color_to_return = (hardship_index - 50) / 150.0;
         

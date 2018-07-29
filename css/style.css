@@ -1,18 +1,28 @@
+.overlay {
+  background-color:rgb(50, 50, 50);
+}
+
 .community-area {
-    fill: white;
-    stroke: gray;
-    stroke-width: 1;
-  }
-  
-.tooltip {
-    font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    z-index: 10;
-    visibility: hidden;
-    background-color: white;
-    text-align: center;
-    padding: 4px;
-    border-radius: 4px;
-    color: black;
-    opacity: 0.8;
-  }
+  fill: rgb(50, 50, 50);
+  stroke: gray;
+  stroke-width: 1;
+}
+
+.text-body {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 900px;
+  margin-top: -650px;
+  margin-right: 30px;
+  position: relative;
+}
+
+.button {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
