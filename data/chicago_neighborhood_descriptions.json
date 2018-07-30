@@ -1,0 +1,493 @@
+{
+    "Rogers Park":
+        {
+            "description": "Rogers Park is one of the 77 Chicago community areas on the far north side of Chicago, Cook County, Illinois and is also the name of the Chicago neighborhood that constitutes most of the community area. Rogers Park is located nine miles north of the Cook County Courthouse in downtown Chicago. It is bounded by the city of Evanston along Juneway Terrace and Howard Street to the north, Ridge Boulevard to the west, Devon Avenue and the Edgewater neighborhood to the south, and Lake Michigan to the east. The neighborhood just to the west, West Ridge, was part of Rogers Park until the 1890s.",
+            "link": "https://en.wikipedia.org/wiki/Rogers_Park,_Chicago"
+        },
+    "West Ridge": 
+        {
+            "description": "Today West Ridge is one of Chicago's better off communities, filled with thriving multi-ethnic culture lining Devon Avenue, historic mansions lining Ridge and Lunt Avenues, cultural institutions such as St. Scholastica Academy and one of the highest per capita incomes on the North Side of Chicago. It had been represented in the Chicago City Council by Alderman Bernard Stone from 1973 until May 2011. On April 5, 2011, Alderman Debra Silverstein defeated Stone in a runoff election and now represents the 50th Ward, which encompasses West Ridge.",
+            "link": "https://en.wikipedia.org/wiki/West_Ridge,_Chicago"
+        },
+    "Edgewater":
+        {
+            "description": "Edgewater was first developed around the 1880s as a summer home for Chicago's elite. Today, it provides the northern terminus of both Lincoln Park and Lake Shore Drive. With the exception of pockets acknowledged as historic districts (like the Bryn Mawr Historic District), east-Edgewater (Edgewater Beach) boasts a skyline of high-rise apartment buildings, condominium complexes, and mid-rise homes. To the west, Edgewater is characterized by commercial businesses; single-family homes; and two-, three-, or four-story flats, including the historic neighborhood of Andersonville.",
+            "link": "https://en.wikipedia.org/wiki/Edgewater,_Chicago"
+        },
+    "Andersonville":
+        {
+            "description": "Andersonville is a neighborhood in western Edgewater / Uptown. Once a sleepy little village made up primarily of Swedish immigrants, the community is particularly known for its diversity, including a continued Swedish cultural presence led by the Swedish American Museum, the Swedish Bakery and other Swedish businesses. Swedish businesses include the bar Simon's Tavern, a former basement speakeasy, which serves the Swedish wine drink as glögg, and Svea restaurants. At one time there were more Swedes in Chicago than any city outside of Stockholm. Many of Andersonville's Swedes were carpenters, contractors and architects, and played a significant role in building the city.",
+            "link": "https://en.wikipedia.org/wiki/Edgewater,_Chicago#Andersonville"
+        },
+    "Lincoln Square":
+        {
+            "description": "Lincoln Square, located on the North Side of the city of Chicago, Illinois, is one of 77 well-defined Chicago community areas. Greater Lincoln Square encompasses the smaller neighborhoods of Ravenswood Gardens, Bowmanville, Budlong Woods and Lincoln Square (neighborhood). Although it is sometimes known by these other names the City of Chicago officially designated it as Lincoln Square in 1925. According to the Encyclopedia of Chicago, the conflation of Ravenswood and Lincoln Square is a common mistake — the two are not interchangeable. The boundaries of the original Ravenswood subdivision, drawn in 1869, were Montrose, Lawrence, Clark and Damen.",
+            "link": "https://en.wikipedia.org/wiki/Lincoln_Square,_Chicago"
+        },
+    "Uptown":
+        {
+            "description": "The historical, cultural, and commercial center of Uptown is Broadway, with Uptown Square at the center. In 1900, the Northwestern Elevated Railroad constructed its terminal at Wilson and Broadway (now part of the CTA Red Line). Uptown became a summer resort town for downtown dwellers, and derived its name from the Uptown Store, which was the commercial center for the community. For a time, all northbound elevated trains from downtown ended in Uptown. Uptown became known as an entertainment destination. Charlie Chaplin, Gloria Swanson and other early film stars produced films at the Essanay Studios on Argyle Street. The Aragon Ballroom, Riviera Theater, Uptown Theatre, and Green Mill Jazz Club are all located within a half block of Lawrence and Broadway. Uptown is also home to one of Chicago's most celebrated final resting spots, Graceland Cemetery.",
+            "link": "https://en.wikipedia.org/wiki/Uptown,_Chicago"
+        },
+    "Albany Park":
+        {
+            "description": "Albany Park is one of 77 well-defined community areas of Chicago. Located on the Northwest Side of the City of Chicago with the North Branch of the Chicago River forming its east and north boundaries, it includes the Albany Park neighborhood, one of the most ethnically diverse in the United States. It has one of highest percentages of foreign-born residents of any Chicago neighborhood. Although the majority of those foreign-born residents are from Latin America, mostly from Mexico (especially from the state of Michoacán), Guatemala, and Ecuador, substantial numbers are from the Philippines, India, Korea, Cambodia, Somalia, the former Yugoslavia (Serbia, Croatia, Bosnia), Romania, Pakistan and the Middle East (especially Iraq, Iran, and Lebanon). Over 40 different languages are spoken in its public schools. Due to the diverse population and immigrant population attraction, the population of the neighborhood increased by 16.5% during the 1990s. It is part of the 60625 ZIP code, which is known as one of the most diverse areas in the entire country.",
+            "link": "https://en.wikipedia.org/wiki/Albany_Park,_Chicago"
+        },
+    "North Park":
+        {
+            "description": "North Park is one of 77 well-defined community areas of the City of Chicago. It is bordered by the North Shore Channel on the east, the Chicago River's North Branch and Foster Avenue on the south, Cicero Avenue on the west (except for the section in the northwest corner, north of Bryn Mawr Avenue, which is part of the Sauganash neighborhood) and Devon Avenue on the north.",
+            "link": "https://en.wikipedia.org/wiki/North_Park,_Chicago"
+        },
+    "Sauganash,Forest Glen": 
+        {
+            "description": "A community of about 550 residences on the far Northwest side of the city of Chicago is often referred to as \"Chicago's Finest Community\". It is one of the oldest neighborhoods on the Northwest side, and is at the southern part of the official Chicago neighborhood's area of Forest Glen, which also contains Edgebrook and Sauganash. The first European American to settle Forest Glen was Civil War hero Captain William Hazelton of the 1st Cavalry Division. Captain Hazelton built a home in Forest Glen which still stands, and started a Sunday School that evolved into the First Congregational Church of Forest Glen. Hazelton also built the Glen's first barn at what is now Lawler and Elston. The Forest Glen neighborhood is bordered by the Chicago River to the north, Foster Avenue to the south, Cicero Avenue to the east and Metra Milwaukee District North line to the west. Forest Glen shares its ZIP Code (60630) with Jefferson Park.",
+            "link": "https://en.wikipedia.org/wiki/Forest_Glen,_Chicago"
+        },
+    "Jefferson Park":
+        {
+            "description": "Jefferson Park is a predominantly middle-class neighborhood of people coming from a variety of diverse backgrounds. Like many neighborhoods on the Northwest Side of Chicago the neighborhood has a heavy Polish-American presence, and is home to the Copernicus Foundation, the Polish parish of St. Constance, as well as a host of other Polish-American organizations, institutions and businesses. Jefferson Park is also known for having a very high number of resident city and county workers. The area is filled with the homes of Chicago Public School teachers and staff, Chicago Police Department, Chicago Fire Department as well as Cook County Sheriff officers and staff. Boundaries are Austin Ave, Chicago River, Railway, Elston Ave, Foster Ave, Edens Expy, Cicero Ave, Montrose Ave, Narraganset Ave, Nagle Ave, Bryn Mawr Ave, Northwest Hwy, Milwaukee Ave.",
+            "link": "https://en.wikipedia.org/wiki/Jefferson_Park,_Chicago"
+        },
+    "Norwood Park":
+        {
+            "description": "Norwood Park is one of 77 Chicago community areas. It encompasses the smaller neighborhoods of Big Oaks, Norwood Park East, Norwood Park West, Old Norwood Park, Oriole Park, and Union Ridge. Originally organized in 1872 from adjacent townships (Jefferson, Leyden and Niles) as a village, and named after Henry Ward Beecher's novel Norwood, or Village Life in New England (1868), Norwood Park was annexed to the City of Chicago in 1893. Norwood Park was incorporated as a village in 1874 and annexed to Chicago on November 7, 1893. Every Memorial Day there is a parade that runs through Norwood Park. The parade has been a local tradition for more than 90 years, starting in 1922. The community area also boasts the oldest extant building in Chicago, the Noble-Seymour-Crippen House. Taft High School was completed in 1939, with major additions made in 1959 and 1974.",
+            "link": "https://en.wikipedia.org/wiki/Norwood_Park,_Chicago"
+        },
+    "Edison Park":
+        {
+            "description": "Edison Park (formerly Canfield) is one of the 77 community areas of Chicago, in North Side, Chicago, Illinois. It consists entirely of the Edison Park neighborhood, and is named after Thomas Alva Edison, who gave his blessing to this community namesake in 1890. According to the 2000 Census, its population is 11,259. Edison Park has one of the highest concentrations of Irish ancestry in Chicago, where they make up over three-fourths of the neighborhood's population. Located between the Des Plaines River and the Chicago River this area served as a local watershed divide. The Chicago River flowed into Lake Michigan, which connected to the Atlantic Ocean through the Great Lakes. The Des Plaines River feeds into the Illinois River and the Mississippi River to reach the Gulf of Mexico. Like nearby Portage Park, Edison Park was a common portage for early travelers, who would carry their canoes across it.",
+            "link": "https://en.wikipedia.org/wiki/Edison_Park,_Chicago"
+        },
+    "O Hare":
+        {
+            "description": "O'Hare, located on the far northwest side of Chicago, Illinois, is one of the city's 77 official community areas. O'Hare International Airport is located within the boundaries of this community area. This community area is the only one that extends outside Cook County; the western edge (an area comprising the southwest part of the airport) is in DuPage County. The area is a transportation hub containing O'Hare International Airport as well as major roads such as Interstate 90, its auxiliary Interstate 190, Interstate 294, Illinois Route 72, Illinois Route 171, U.S. Route 12 and U.S. Route 45. This allows the O'Hare neighborhood, combined with the nearby suburb of Rosemont, to work as an edge city.",
+            "link": "https://en.wikipedia.org/wiki/O%27Hare,_Chicago"
+        },
+    "Wrigleyville":
+        {
+            "description": "Formerly a working-class neighborhood, Wrigleyville is the nickname to the neighborhood directly surrounding Wrigley Field. Also known as Lakeview East, its borders run from Cornelia Avenue and Grace Street, to Halsted Street and Racine Avenue. Wrigleyville features low-rise brick buildings and houses, some with rooftop bleachers colloquially called Wrigley Rooftops where people can purchase seats to watch baseball games or concerts that, while generally more expensive than tickets for seats within the park itself, come with all you can eat and drink service. Proprietors are able to do so under special agreements with the Chicago Cubs organization. Many Wrigleyville bars and restaurants (particularly on North Clark Street) feature sports-oriented themes. Bars such as Sluggers, Murphy's Bleachers, Casey Moran's, Rockwood Place, Sports Corner and The Cubby Bear host the Cubs crowds near the Wrigley Field intersection of North Clark Street and West Addison Street.",
+            "link": "https://en.wikipedia.org/wiki/Lake_View,_Chicago#Wrigleyville"
+        },
+    "Lake View":
+        {
+            "description": "Lake View, also spelled Lakeview, is one of the 77 community areas of Chicago, Illinois, located on the city's North Side. It is bordered by West Diversey Parkway on the south, West Irving Park Road on the north, North Ravenswood Avenue on the west, and the shore of Lake Michigan on the east. The Uptown community area is to Lakeview's north, Lincoln Square to its northwest, North Center to its west and Lincoln Park to its south. The 2015 population of Lakeview was 98,212 residents, making it the largest of the Chicago community areas by population. Lakeview unofficially includes smaller neighborhood enclaves: Sheridan Station Corridor, Northhalsted, Southport Corridor, Wrigleyville, & Wrigley Plaza. Boystown, famous for its large LGBT population, holds the pride parade held each June. Wrigleyville, another popular district, surrounds Wrigley Field, home of the Chicago Cubs. Lakeview is home to the Belmont Theater District showcasing over 30 theaters and live performance venues located near the Belmont El station. In 2013, Money Magazine named Lakeview as number 3 of its top 10 Big-city neighborhoods for its selection of Best Places to Live.",
+            "link": "https://en.wikipedia.org/wiki/Lake_View,_Chicago"
+        },
+    "Boystown":
+        {
+            "description": "The Boystown section of Lakeview was the first officially recognized gay village in the United States. It is also the cultural center of one of the largest lesbian, gay, bisexual, and transgender (LGBT) communities in the nation. Boystown has grown into a cultural center for the LGBT residents living within the Chicago metropolitan area. The district's informal boundaries, overlapping with Lakeview East, are Irving Park Road on the north, Broadway on the east, Wellington Avenue on the south, and Sheffield Avenue on the west. The Center on Halsted, an LGBT community center, is also located in this area. Boystown is known for its colorful, lively nightlife and inviting atmosphere. Boystown also includes some of Chicago's off-Loop theater, specialty restaurants, greystone and brownstone walk-up buildings and other historic architecture, trendy fashion outlets, wine boutiques, chain stores, and independent shops. The city's annual Gays and Lesbians Chicago Pride Parade begins at the intersection of Montrose and Broadway, runs south along Broadway then Halsted to Belmont, turns east on Belmont to Broadway again, then south to Diversey, and then east to Sheridan Road.",
+            "link": "https://en.wikipedia.org/wiki/Lake_View,_Chicago#Boystown"
+        },
+    "North Center":
+        {
+            "description": "North Center is one of the 77 community areas of Chicago, Illinois, located in the city's North Side. North Center is bordered on the north by Montrose Avenue, on the south by Diversey Parkway, on the west by the Chicago River and on the east by Ravenswood Avenue; it includes the neighborhoods of Northcenter, Roscoe Village, St. Ben's, and Hamlin Park. The Brown Line of the Chicago 'L' has stops within the community area at Addison and Irving Park. North Center was settled in the latter part of the 19th century and the early 20th century largely by Germans who worked in what is known as the industrial corridor along Ravenswood Avenue, and the large industrial plants along the Chicago River to the west.",
+            "link": "https://en.wikipedia.org/wiki/North_Center,_Chicago"
+        },
+    "Irving Park":
+        {
+            "description": "Irving Park is one of 77 officially designated Chicago community areas located on the Northwest Side. It is bounded by the Chicago River on the east, the Milwaukee Road railroad tracks on the west, Addison Street on the south and Montrose Avenue on the north, west of Pulaski Road stretching to encompass the region between Belmont Avenue on the south and, roughly, Leland Avenue on the north. It is named after the American author Washington Irving. Old Irving Park, bounded by Montrose Avenue, Pulaski Road, Addison Street and Cicero Avenue, has a variety of housing stock, with Queen Anne, Victorian, and Italianate homes, a few farmhouses and numerous bungalows.",
+            "link": "https://en.wikipedia.org/wiki/Irving_Park,_Chicago"
+        },
+    "Portage Park":
+        {
+            "description": "Portage Park is located on the northwest side of the City of Chicago, Illinois and is one of 77 officially designated Chicago community areas. Portage Park is bordered by the community areas of Jefferson Park and Forest Glen to the north, Dunning and the suburb of Harwood Heights to the west, Irving Park to the east and Belmont-Cragin to the south. Portage Park has the largest Polish community in the Chicago Metropolitan Area according to the 2000 census. Portage Park is home to the Polish American Association, the Polish Jesuit Millennium Center, the Polish Army Veterans Association in the beautiful building of the former Irving State bank, in addition to the multitude of Polish shops and businesses throughout the district. One of the area's parks is named Chopin Park after Frédéric Chopin, Poland's most famous pianist and composer.",
+            "link": "https://en.wikipedia.org/wiki/Portage_Park,_Chicago"
+        },
+    "Dunning":
+        {
+            "description": "Dunning is one of 77 officially designated community areas of the city of Chicago, Illinois. Dunning also is a neighborhood located on the Northwest Side of the city. The neighborhood is home to Wilbur Wright College, Mount Olive Cemetery, and the Eli's Cheesecake factory. It is also the location of the Chicago-Read Mental Health Center, formerly known as Cook County Insane Asylum and commonly referred to, in its day, as simply \"Dunning.\"",
+            "link": "https://en.wikipedia.org/wiki/Dunning,_Chicago"
+        },
+    "Montclare":
+        {
+            "description": "Montclare is one of 77 officially designated Chicago community areas located on the Northwest Side of the City of Chicago, Illinois.",
+            "link": "https://en.wikipedia.org/wiki/Montclare,_Chicago"
+        },
+    "Galewood":
+        {
+            "description": "Galewood is named for Abram Gale who bought a farm on the area in 1838. The neighborhood is bordered by the Milwaukee District / West Line to the north, Harlem Avenue to the west, North Avenue to the south and Central Avenue to the east. The area is a historically Italian-American community with a sizable population of Chicago city employees. Since the 1980s, it has seen an increase in African American and Latino residents, but this integration has occurred peacefully in contrast with other areas of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Austin,_Chicago#Galewood"
+        },
+    "Austin":
+        {
+            "description": "Austin which is located on the West Side of Chicago, Illinois, is one of seventy-seven officially designated community areas in Chicago. It is currently the largest community area both geographically and by population. Austin's eastern boundary is the Belt Railway located just east of Cicero Avenue. Its northernmost border is the Milwaukee District / West Line. Its southernmost border is at Roosevelt Road from the Belt Railway west to Austin Boulevard. The northernmost portion, north of North Avenue, extends west to Harlem Avenue, abutting Elmwood Park. In addition to Elmwood Park, Austin also borders the suburbs of Cicero and Oak Park.",
+            "link": "https://en.wikipedia.org/wiki/Austin,_Chicago"
+        },
+    "Humboldt Park":
+        {
+            "description": "Humboldt Park, one of 77 designated community areas, is on the West Side of Chicago, Illinois. The Humboldt Park neighborhood is known for its dynamic social and ethnic demographic change over the years. The Puerto Rican community has identified strongly with the area since the 1970s; Humboldt Park is also the name of a 207 acre park adjacent to the community area.",
+            "link": "https://en.wikipedia.org/wiki/Humboldt_Park,_Chicago"
+        },
+    "Garfield Park":
+        {
+            "description": "Garfield Park is a community area on the West Side of Chicago, Illinois, west of the Loop. Taking its name from the large urban park, Garfield Park, the neighborhood is bordered by Franklin Boulevard on the north, Arthington and Taylor Streets on the south, Hamlin Avenue and Independence Boulevard to the west, and Rockwell Street to the east.",
+            "link": "https://en.wikipedia.org/wiki/East_Garfield_Park,_Chicago"
+        },
+    "North Lawndale":
+        {
+            "description": "North Lawndale, known to residents as simply \"Lawndale\", is located on the West Side of Chicago, Illinois. It is one of the well-defined community areas in the city of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/North_Lawndale,_Chicago"
+        },
+    "Little Village":
+        {
+            "description": "Now mainly inhabited by Mexican immigrants, Little Village was originally settled by Eastern European and Czech and Bohemian immigrants in the late 19th century, after the Great Chicago Fire sent the population of Chicago rippling out from the city's center to the outlying countryside. Jobs created by industrial development in the early 20th century also attracted residents to the area.",
+            "link": "https://en.wikipedia.org/wiki/South_Lawndale,_Chicago#Little_Village_(La_Villita)"
+        },
+    "Lower West Side":
+        {
+            "description": "Lower West Side is a community area on the West Side of Chicago, Illinois, United States. It is three miles southwest of the Chicago Loop and its main neighborhood is Pilsen. The Heart of Chicago is a neighborhood in the southwest corner of the Lower West Side.",
+            "link": "https://en.wikipedia.org/wiki/Lower_West_Side,_Chicago"
+        },
+    "Logan Square":
+        {
+            "description": "Logan Square is an official community area, historical neighborhood, and public square located on the northwest side of the City of Chicago. The Logan Square community area is one of the 77 city-designated community areas established for planning purposes. The Logan Square neighborhood, located within the Logan Square community area, is centered on the public square that serves as its namesake, located at the three-way intersection of Milwaukee Avenue, Logan Boulevard and Kedzie Boulevard. The community area of Logan Square is, in general, bounded by the Metra/Milwaukee District North Line railroad on the west, the North Branch of the Chicago River on the east, Diversey Parkway on the north, and Bloomingdale Avenue on the south. The area is characterized by the prominent historical boulevards, stately greystones and large bungalow-style homes.",
+            "link": "https://en.wikipedia.org/wiki/Logan_Square,_Chicago"
+        },
+    "Bucktown":
+        {
+            "description": "Bucktown is a neighborhood located in the east of the Logan Square community area in Chicago, directly north of Wicker Park, and northwest of the Loop. Bucktown gets its name from the large number of goats raised in the neighborhood during the 19th century when it was an integral part of the city's famed Polish Downtown. The original Polish term for the neighborhood was Kozie Prery (Goat Prairie). Its boundaries are Fullerton Ave. to the north, Western Avenue to the west, Bloomingdale or North Avenue to the south, and the Kennedy Expressway to the east. Bucktown's original boundaries were Fullerton Avenue, Damen Avenue (formerly Robey Street), Armitage Avenue and Western Avenue.",
+            "link": "https://en.wikipedia.org/wiki/Logan_Square,_Chicago#Bucktown"
+        },
+    "Lincoln Park":
+        {
+            "description": "Lincoln Park is one of the wealthiest and most expensive communities in which to live. While the average single-family house is priced around $1 million, many homes in the area sell for more than $10 million. In 2007, Forbes magazine named the area between Armitage Avenue, Willow Street, Burling Street, and Orchard Street as the most expensive block in Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Lincoln_Park,_Chicago"
+        },
+    "Sheffield & DePaul":
+        {
+            "description": "Sheffield & Depaul is a neighborhood within the Lincoln Park community area.",
+            "link": "https://en.wikipedia.org/wiki/Lincoln_Park,_Chicago"
+        },
+    "Old Town":
+        {
+            "description": "Old Town is a Chicago neighborhood bounded by North Avenue on the north, Larrabee Street on the northwest, Division Street on the south, Clybourn Avenue on the southwest, and LaSalle Street on the east. It crosses portions of the community areas of southern Lincoln Park, as well as the northern Near North Side, and is part of Chicago's 43rd ward. Old Town includes the Old Town Triangle Historic District which is bounded on its northwest side by the former Ogden Avenue right-of-way, its northeast side by Lincoln Avenue and Wells Street, and on its south side by North Avenue. This historic district sits within the Old Town Triangle Association (OTTA), a Lincoln Park neighborhood bounded by the former Ogden Avenue right-of-way, Clark Street, and North Avenue. It sits inside the community area of Lincoln Park and is part of Chicago's 43rd ward. Old Town north of North Avenue is in Lincoln Park, and south of North Avenue is part of the Near North Side. It is now an affluent gentrified neighborhood. Old Town south of North Avenue has become a mixture of rich and poor with new luxury homes near the remaining CHA Marshall Field Apartments and many planned new developments slated for the area which formerly housed the now demolished public housing projects (of Cabrini–Green) in this recently gentrified area of the neighborhood.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago#Old_Town"
+        },
+    "Gold Coast":
+        {
+            "description": "The Gold Coast consists mostly of high-rise apartment buildings and stone mansions throughout. As with many neighborhoods, its exact borders are subject to dispute; but, generally, they are North Avenue, to the north, Chicago Avenue, to the south, and Clark Street, to the west. The Gold Coast became the home of the super-rich in 1885, when Potter Palmer, former dry goods merchant and owner of the Palmer House hotel, built a fanciful castle on Lake Shore Drive. Over the next few decades, Chicago's elite gradually migrated from Prairie Avenue to their new homes north of the Loop.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago#Gold_Coast"
+        },
+    "Rush & Division":
+        {
+            "description": "Rush and Division are a neighborhood in the Near North Side community area.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago"
+        },
+    "Magnificent Mile":
+        {
+            "description": "The Magnificent Mile is a stretch of North Michigan Avenue between the Chicago River and Oak Street, in Streeterville. Although actually about three-quarters of a mile, the name \"Magnificent Mile\" has stuck. Along this street is a mixture of luxury stores, restaurants, office buildings, and hotels. The area has a high concentration of the city's major media firms and advertising agencies, including the Chicago Tribune newspaper. The street is the home of Chicago's famous Water Tower landmark, Water Tower Park with its historic clock, and the eight-level Water Tower Place shopping center which grew up next door to, and overshadowed, the comparatively diminutive landmark. The shopping center is anchored by Macy's North Michigan store and The American Girl specialty store. North of the shopping center can be found the famous John Hancock Center, the Art Deco Palmolive Building, and the lavish Drake Hotel.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago#Magnificent_Mile"
+        },
+    "River North":
+        {
+            "description": "River North is a dynamic and growing technology-driven neighborhood known for its fine dining, galleries, nightlife, and riverwalk amenities. It is home to the world headquarters of ConAgra, Groupon, Motorola Mobility, and the regional offices of Google, and Yelp. It is bounded by Michigan Avenue to the east, Chicago Avenue to the north, and the Chicago River to the south and west. Its famous structures include the Wrigley Building, Trump International Hotel & Tower, Holy Name Cathedral, the Marina City towers, and the House of Blues.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago#River_North"
+        },
+    "Streeterville":
+        {
+            "description": "Streeterville is the easternmost neighborhood in Chicago north of the Chicago River. It is bounded by the river on the south, Michigan Avenue on the west, and Lake Michigan on the north and east. Streeterville houses some of Chicago's tallest skyscrapers (such as the John Hancock Center); many upscale stores, hotels, restaurants; and Northwestern University's Northwestern Memorial Hospital, Feinberg School of Medicine, School of Professional Studies, Kellogg School of Management's downtown campus, and School of Law. The Magnificent Mile portion of Michigan Avenue is part of Streeterville, as is the number one tourist attraction in Chicago, Navy Pier. The Museum of Contemporary Art, Chicago is also located here.",
+            "link": "https://en.wikipedia.org/wiki/Near_North_Side,_Chicago#Streeterville"
+        },
+    "West Town":
+        {
+            "description": "West Town, located in Chicago, in the U.S. state of Illinois, northwest of the Loop, on Chicago's West Side is one of 77 officially designated Chicago community areas. Much of this area was historically part of the city's Polish Downtown, and its name may refer to Western Avenue, which was the city's western boundary at the time of West Town's settlement, but more likely was a convenient abstraction by the creators of Chicago's community areas.",
+            "link": "https://en.wikipedia.org/wiki/West_Town,_Chicago"
+        },
+    "Wicker Park":
+        {
+            "description": "Wicker Park is a neighborhood of about 26,000 residents within the West Town community area in Chicago, Illinois. Situated just west of the Kennedy Expressway, Wicker Park is known for its local hipster culture, art community, nightlife, and food scene.",
+            "link": "https://en.wikipedia.org/wiki/Wicker_Park,_Chicago"
+        },
+    "Ukrainian Village":
+        {
+            "description": "Ukrainian Village is a Chicago neighborhood located on the near west side of Chicago. Its boundaries are Division Street to the north, Chicago Avenue to the south, Western Avenue to the west, and Damen Avenue to the east. It is one of the neighborhoods in the West Town community area. By the 1930s, there were five Ukrainian parishes dotting Chicago's neighborhoods, reflecting a wave of immigration of Ukrainian Catholics. Some churches are built in the Byzantine-Slavonic style of St. Nicholas Cathedral. Built between November 1913 and January 1915, St. Nicholas is in the heart of the Ukrainian neighborhood south of Wicker Park and along Chicago Avenue, referred to by locals as Ukrainian Village. This neighborhood, northwest of the Loop, was first settled by Polish and Slovak immigrants. With the rise of Ukrainian nationalism and the influx of political refugees during World War I, new immigrants gave it a Ukrainian cultural identity, which it retains.",
+            "link": "https://en.wikipedia.org/wiki/Ukrainian_Village,_Chicago"
+        },
+    "East Village":
+        {
+            "description": "East Village or \"East Ukrainian Village\" is a neighborhood directly east of Ukrainian Village. The generally accepted boundaries of East Village are Ashland (1600 W) on the east, Damen (2000 W) on the west, Division (1200 N) on the north, and Chicago (800 N) on the south (although some people extend the southern border to Grand Ave). The East Village Association neighborhood group in 1984 identify the boundaries as Division Street to Chicago Avenue and Damen Avenue to Milwaukee Avenue (800 - 1600 W)",
+            "link": "https://en.wikipedia.org/wiki/West_Town,_Chicago#East_Village"
+        },
+    "Belmont Cragin":
+        {
+            "description": "Belmont Cragin is one of 77 officially designated Chicago community areas located on the Northwest Side of the City of Chicago, Illinois. It is designated Community Area 19, and is located 8 miles (13 km) NW of the Loop. As of 2016 the neighborhood has some young professionals, some working class Latino people, and some older Polish people.",
+            "link": "https://en.wikipedia.org/wiki/Belmont_Cragin,_Chicago"
+        },
+    "Hermosa":
+        {
+            "description": "Hermosa is one of 77 designated Chicago community areas and is located on the northwest side of Chicago, Illinois. The Hermosa community area contains the Kelvyn Park and Hermosa neighborhoods. The area includes the birthplace of Walt Disney and is the former headquarters of the Schwinn Bicycle Company. While being one of the smaller community areas Hermosa is one of the city’s most densely populated neighborhoods. Today, Hermosa is a predominantly Hispanic blue collar community, with a sizable manufacturing base. Many of the people who reside in Hermosa have done so because of its convenient location to work, its relative proximity to downtown, and because of its healthy public transportation options. The Consulate-General of Honduras in Chicago is located in Hermosa at 4439 West Fullerton Avenue.",
+            "link": "https://en.wikipedia.org/wiki/Hermosa,_Chicago"
+        },
+    "United Center":
+        {
+            "description": "United Center is a multi-purpose arena located in the Near West Side neighborhood of Chicago, Illinois. The United Center is home to both the Chicago Bulls of the National Basketball Association (NBA) and the Chicago Blackhawks of the National Hockey League (NHL). The arena is named after its city-based corporate sponsor, United Airlines. The plan to build the arena was created by then Blackhawks owner Bill Wirtz and Bulls owner Jerry Reinsdorf. The United Center's predecessor was the Chicago Stadium, the original \"Madhouse on Madison\", which was demolished after the new arena opened for business on August 18, 1994. The first-ever event at the United Center was the WWF event SummerSlam (1994). Due to the 1994–95 NHL lockout, the Blackhawks did not move in until January 1995.",
+            "link": "https://en.wikipedia.org/wiki/United_Center"
+        },
+    "Little Italy, UIC":
+        {
+            "description": "Little Italy, sometimes combined with University Village into one neighborhood, is on the Near West Side of Chicago, Illinois. The current boundaries of Little Italy are Ashland Avenue on the west and Interstate 90/94 on the east, the Eisenhower Expressway on the north and Roosevelt to the south. It lies between the east side of the University of Illinois at Chicago campus in the Illinois Medical District and the west side of the University of Illinois at Chicago campus. The community was once predomanently Italian immigrants but now is made up of diverse ethnic and socio-economic backgrounds as a result of immigration, urban renewal, gentrification and the growth of the resident student and faculty population of the University of Illinois at Chicago (UIC). Its Italian-American heritage is primarily evident in the Italian-American restaurants that once lined Taylor Street. The neighborhood is home to the National Italian American Sports Hall of Fame as well as the historic Roman Catholic churches Our Lady of Pompeii, Notre Dame de Chicago, and Holy Family. The recent history of the neighborhood waves of urban renewal, starting with the construction of expressways in the 1950s, the development of UIC in the 1960s, the demolition of public housing in the 1990s and 2000s, and redevelopment of Maxwell Street in the 2000s. Along with these changes, housing prices in the area have risen.",
+            "link": "https://en.wikipedia.org/wiki/Little_Italy,_Chicago"
+        },
+    "West Loop":
+        {
+            "description": "The West Loop lies along the western bank of the Chicago River. It is approximately bounded by Grand Avenue on the north, Ashland Avenue on the west, the Eisenhower Expressway on the south, and the Chicago River on the east. Popular restaurants line Randolph Street, including Girl and the Goat by Stephanie Izard, and Leña Brava by Rick Bayless. The area has experienced rapid gentrification. A former manufacturing and warehousing area, many of the buildings have been converted to loft condominiums, restaurants, bars, and art galleries. Oprah Winfrey's Harpo Studios were located on Randolph Street, and the site is currently under construction to be the corporate headquarters of McDonald's. Soho House was one of the first boutique hotels in West Loop, and Ace Hotels followed in 2017. Retailers in West Loop include Maria Pinto, Billy Reid, Free People, and Aesop.",
+            "link": "https://en.wikipedia.org/wiki/Near_West_Side,_Chicago#West_Loop"
+        },
+    "Greektown":
+        {
+            "description": "Greektown is a restaurant and nightlife corridor along Halsted Street between Van Buren and Madison Streets. It was popularized in the movie \"My Big Fat Greek Wedding,\" which was actually filmed mostly in Toronto. Formerly part of a larger Greek neighborhood called 'The Delta,' the area home of many Greek restaurants.",
+            "link": "https://en.wikipedia.org/wiki/Near_West_Side,_Chicago#Greektown"
+        },
+    "Loop":
+        {
+            "description": "The Loop is the central business district and downtown area of Chicago, Illinois, United States. It is one of the city's 77 designated community areas. The Loop is home to Chicago's commercial core, City Hall, and the seat of Cook County. In the late nineteenth century, cable car turnarounds and prominent elevated railway encircled the area, giving the Loop its name.",
+            "link": "https://en.wikipedia.org/wiki/Chicago_Loop"
+        },
+    "Millenium Park":
+        {
+            "description": "Millennium Park is a public park located in the Loop community area of Chicago in Illinois, US, and originally intended to celebrate the third millennium. It is a prominent civic center near the city's Lake Michigan shoreline that covers a 24.5-acre (99,000 m2) section of northwestern Grant Park. The area was previously occupied by parkland, Illinois Central rail yards, and parking lots. The park, which is bounded by Michigan Avenue, Randolph Street, Columbus Drive and East Monroe Drive, features a variety of public art. As of 2009, Millennium Park trailed only Navy Pier as a Chicago tourist attraction and by 2017 it had become the number one tourist attraction in the Midwestern United States. In 2015, the park became the location of the city's annual Christmas tree lighting.",
+            "link": "https://en.wikipedia.org/wiki/Millennium_Park"
+        },
+    "Grant Park":
+        {
+            "description": "Grant Park is a large urban park (319 acres or 1.29 km²) in the Loop community area of Chicago, Illinois. Located within the city's central business district, the park's most notable features are Millennium Park, Buckingham Fountain, the Art Institute of Chicago, and the Museum Campus. Originally known as Lake Park, and dating from the city's founding, it was renamed in 1901 to honor US President Ulysses S. Grant. The park's area has been expanded several times through land reclamation, and was the focus of several disputes in the late 19th century and early 20th century over open space use. It is bordered on the north by Randolph Street, on the south by Roosevelt Road and McFetridge Drive, on the west by Michigan Avenue and on the east by Lake Michigan. The park contains performance venues, gardens, art work, sporting, and harbor facilities. It hosts public gatherings and several large annual events. Grant Park is popularly referred to as \"Chicago's front yard\". It is governed by the Chicago Park District.",
+            "link": "https://en.wikipedia.org/wiki/Grant_Park_(Chicago)"
+        },
+    "Printers Row":
+        {
+            "description": "Printer's Row, also known as Printing House Row, is a neighborhood located in the southern portion of the Loop community area of Chicago. It is centered on Dearborn Street from Congress Parkway on the north to Polk Street on the south, and includes buildings along Plymouth Court on the east and Federal Street to the west. Most of the buildings in this area were built between 1886 and 1915 for house printing, publishing, and related businesses. Today, the buildings have mainly been converted into residential lofts. Part of Printer's Row is an official landmark district, called the Printing House Row District. The annual Printers Row Lit Fest is held in early June along Dearborn Street.",
+            "link": "https://en.wikipedia.org/wiki/Chicago_Loop#Printer's_Row"
+        },
+    "Near South Side":
+        {
+            "description": "The Near South Side is a community area of Chicago in Cook County, Illinois, United States. It is located just south of the downtown central business district, the Loop. The Near South Side's boundaries (see map) are as follows: North—Roosevelt Road (1200 S); South—26th Street; West—Chicago River between Roosevelt and 18th Street, Clark Street between 18th Street and Cermak Road, Federal between Cermak Road and the Stevenson Expressway just south of 25th Street, and Clark Street again between the Stevenson and 26th Street; and East—Lake Michigan. The portion of the Near South Side located near Lake Shore Drive contains some of the most well-known structures in Chicago: Soldier Field, the home of the National Football League Chicago Bears; McCormick Place, Chicago's primary convention center; the Museum Campus, which contains the Field Museum, the Shedd Aquarium, and the Adler Planetarium; and Northerly Island. The remaining area is currently undergoing a major residential and mixed-use redevelopment.",
+            "link": "https://en.wikipedia.org/wiki/Near_South_Side,_Chicago"
+        },
+    "Museum Campus":
+        {
+            "description": "Museum Campus is a 57-acre park in Chicago that sits alongside Lake Michigan and encompasses five of the city's most notable attractions: the Adler Planetarium, America's first planetarium; the Shedd Aquarium; the Field Museum of Natural History; Soldier Field, home of the NFL Chicago Bears football team; and the Lakeside Center of McCormick Place. Museum Campus sits adjacent to Northerly Island along the waterfront.",
+            "link": "https://en.wikipedia.org/wiki/Museum_Campus"
+        },
+    "Bridgeport":
+        {
+            "description": "Bridgeport, one of 77 community areas of Chicago, Illinois, is a neighborhood on the city's South Side, bounded on the north by the South Branch of the Chicago River, on the west by Bubbly Creek, on the south by Pershing Road, and on the east by the Union Pacific railroad tracks. Neighboring communities are Pilsen across the river to the north, McKinley Park to the west, Canaryville to the south, and Armour Square to the east. Bridgeport has been the home of five Chicago mayors. Once known for its racial intolerance, Bridgeport today ranks as one of the city's most diverse neighborhoods.",
+            "link": "https://en.wikipedia.org/wiki/Bridgeport,_Chicago"
+        },
+    "Chinatown":
+        {
+            "description": "The Chinatown neighborhood in Chicago, Illinois, is on the South Side (located in the Armour Square community area), centered on Cermak and Wentworth Avenues, and is an example of an American Chinatown, or ethnic-Chinese neighborhood. By the 2000 Census, Chicago Primary Metropolitan Statistical Area had 68,021 Chinese. The combined 60616 and 60608 zip codes in Chicago, as of the 2010 Census, were home to 22,380 people of Chinese descent. In addition, as of 2010, the Chicago-Joliet-Naperville IL-IN-WI metro area had 92,712 people of Chinese descent. Chicago is the second oldest settlement of Chinese in America after the Chinese fled persecution in California. The present Chicago Chinatown formed about 1915, after settlers moved steadily south from near the Loop where the first enclaves were established in the 19th century. Chinatown is sometimes confused with an area on the city's North Side sometimes referred to as \"New Chinatown\", which is centered on Argyle Street and is somewhat of a misnomer given that it is largely populated by people of Southeast Asian heritage.",
+            "link": "https://en.wikipedia.org/wiki/Chinatown,_Chicago"
+        },
+    "Armour Square":
+        {
+            "description": "Armour Square is a Chicago neighborhood on the city's South Side, as well as a larger, officially defined community area which also includes Chinatown and the CHA Wentworth Gardens housing project. Armour Square is bordered by Bridgeport to the west and Bronzeville to the east, with Pilsen and the near South Side bordering the area to the north and Fuller Park bordering its southernmost boundary along Pershing Road.",
+            "link": "https://en.wikipedia.org/wiki/Armour_Square,_Chicago"
+        },
+    "Douglas":
+        {
+            "description": "Douglas, on the South Side of Chicago, Illinois, is one of 77 Chicago community areas. The neighborhood is named for Stephen A. Douglas, an Illinois politician, whose estate included a tract of land given to the federal government. This tract later was developed for use as the Civil War Union training and prison camp, Camp Douglas, located in what is now the eastern portion of the Douglas neighborhood. Douglas gave that part of his estate at Cottage Grove and 35th to the Old University of Chicago. The Chicago 2016 Olympic bid planned for the Olympic Village to be constructed on a 37-acre truck parking lot south of McCormick Place that is mostly in the Douglas community area and partly in the Near South Side.",
+            "link": "https://en.wikipedia.org/wiki/Douglas,_Chicago"
+        },
+    "Mckinley Park":
+        {
+            "description": "McKinley Park, one of the 77 official community areas of Chicago, Illinois, is located on the city's southwest side. McKinley Park is served by three neighborhood newspapers: the Bridgeport News, the Archer Journal News and the Brighton Park/McKinley Park Life, in addition to the online McKinley Park News. The neighborhood newspapers are delivered weekly on Wednesdays to homes, businesses and other establishments throughout the neighborhood.",
+            "link": "https://en.wikipedia.org/wiki/McKinley_Park,_Chicago"
+        },
+    "New City":
+        {
+            "description": "New City is one of Chicago's 77 official community areas, located on the southwest side of the city in the South Side district. It contains the neighborhoods of Canaryville and Back of the Yards. The area was home to the famous Union Stock Yards that were on Chicago's south side until closed in 1971.",
+            "link": "https://en.wikipedia.org/wiki/New_City,_Chicago"
+        },
+    "Fuller Park":
+        {
+            "description": "Fuller Park, located on the south side of Chicago, Illinois, is one of 77 officially designated Chicago community areas. It is designated Community Area 37. Fuller Park is named for the small park within the neighborhood, which is in turn named for Melville Weston Fuller, a Chicago attorney who was the Chief Justice of the United States between 1888 and 1910.",
+            "link": "https://en.wikipedia.org/wiki/Fuller_Park,_Chicago"
+        },
+    "Brighton Park":
+        {
+            "description": "Brighton Park is a neighborhood located on the southwest side of Chicago, Illinois. It is number 58 of the 77 community areas of Chicago. Brighton Park is bordered on the north by the former Illinois & Michigan Canal and the current Chicago Sanitary and Ship Canal, on the east by Western Avenue, on the south by 49th Street, and on the west by Central Park Ave. The neighborhood is a mix of residential areas, commercial zones, industrial works and transportation (primarily railroad and trucking) facilities. It is relatively peaceful, according to Chicago Police Department statistics (2004 CPD Annual Report).",
+            "link": "https://en.wikipedia.org/wiki/Brighton_Park,_Chicago"
+        },
+    "Archer Heights":
+        {
+            "description": "Archer Heights is a neighborhood in Chicago, Illinois, one of the 77 official community areas of Chicago. Archer Avenue runs from south of Chicago's downtown area, through the southwest side of Chicago and beyond into the southwest suburbs, along what was once a Native American trail. The neighborhood is bounded by the Stevenson Expressway to the north, the CTA Orange Line to the south, the Corwith railyard to the east, and the railroad tracks/Knox Avenue to the west.",
+            "link": "https://en.wikipedia.org/wiki/Archer_Heights,_Chicago"
+        },
+    "Grand Boulevard":
+        {
+            "description": "Grand Boulevard, located on the South Side of Chicago, Illinois, is one of the well-defined Chicago Community Areas. The boulevard from which the community area takes its name now bears the name of Martin Luther King, Jr. Drive. The area is bounded by 39th to the north, 51st Street to the south, Cottage Grove Avenue to the east, and the Chicago, Rock Island & Pacific Railroad tracks to the west. This is one of the two community areas that encompass the Bronzeville neighborhood, with the other being Douglas. Grand Boulevard also includes the Washington Park Court District neighborhood that was declared a Chicago Landmark on October 2, 1991. The Harold Washington Cultural Center is one of its newer and more famous buildings. Among the other notable properties in this neighborhood are Daniel Hale Williams House, Robert S. Abbott House and Oscar Stanton De Priest House",
+            "link": "https://en.wikipedia.org/wiki/Grand_Boulevard,_Chicago"
+        },
+    "Oakland":
+        {
+            "description": "Oakland, located on the South Side of Chicago, Illinois, USA, is one of 77 officially designated Chicago community areas. Bordered by 35th and 43rd Streets, Cottage Grove Avenue and Lake Shore Drive, The Oakland area was constructed between 1872 and 1905. Some of Chicago's great old homes may be seen on Drexel Boulevard. The late 19th-century Monument Baptist Church on Oakwood Blvd. is modeled after Boston's Trinity Church. Oakwood /41st Street Beach in Burnham Park is at 4100 S. Lake Shore Drive.",
+            "link": "https://en.wikipedia.org/wiki/Oakland,_Chicago"
+        },
+    "Kenwood":
+        {
+            "description": "Kenwood, one of Chicago's 77 community areas, is on the shore of Lake Michigan on the South Side of the city. Its boundaries are 43rd Street, 51st Street, Cottage Grove Avenue, and the lake. Kenwood was originally part of Hyde Park Township, which was annexed to the city of Chicago in 1889. Kenwood was once one of Chicago's most affluent neighborhoods, and it still has some of the largest single-family homes in the city. It contains two Chicago Landmark districts, Kenwood and North Kenwood. A large part of the southern half of the community area is in the Hyde Park-Kenwood Historic District. In recent years, Kenwood has received national attention as the home of U.S. President Barack Obama.",
+            "link": "https://en.wikipedia.org/wiki/Kenwood,_Chicago"
+        },
+    "Washington Park":
+        {
+            "description": "Washington Park is a community area on the South Side of Chicago which includes the 372 acre (1.5 km²) park of the same name, stretching east-west from Cottage Grove Avenue to the Dan Ryan Expressway, and north-south from 51st Street to 63rd. It is home to the DuSable Museum of African American History. The park was the proposed site of the Olympic Stadium and the Olympic Aquatics Center in Chicago's bid to host the 2016 Summer Olympics. It and surrounding neighborhoods have gone through notable and often turbulent racial transitions.",
+            "link": "https://en.wikipedia.org/wiki/Washington_Park,_Chicago_(community_area)"
+        },
+    "Hyde Park":
+        {
+            "description": "Hyde Park is a neighborhood and community area on the South Side of Chicago, Illinois, U.S.A. It is located on the shore of Lake Michigan seven miles (11 km) south of the Chicago Loop. Hyde Park's official boundaries are 51st Street/Hyde Park Boulevard on the north, the Midway Plaisance (between 59th and 60th streets) on the south, Washington Park on the west, and Lake Michigan on the east.According to another definition, a section to the north between 47th Street and 51st Street/Hyde Park Boulevard is also included as part of Hyde Park, although this area is officially the southern part of the Kenwood community area. The area encompassing Hyde Park and the southern part of Kenwood is sometimes referred to as Hyde Park-Kenwood. Hyde Park is home to the University of Chicago, the Museum of Science and Industry, and two of Chicago's four historic sites listed in the original 1966 National Register of Historic Places (Chicago Pile-1, the world's first artificial nuclear reactor, and Robie House). In the early 21st century, Hyde Park received national attention for its association with U.S. President Barack Obama, who before running for president, was lecturer in law at the University of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Hyde_Park,_Chicago"
+        },
+    "Englewood":
+        {
+            "description": "Englewood is one of the 77 official community areas in Chicago, Illinois, United States. At its peak population in 1960, over 97,000 people lived in its approximately 3 square miles (7.8 km2), but the neighborhood's population has since dropped dramatically. In 2000, it had a population of approximately 40,000 inhabitants, and the 2010 census indicated that its population has further declined to approximately 30,000. Englewood is bordered by Garfield Boulevard to the north, 75th Street to the south, Western Avenue to the west, and State Street to the east. It is located on the southwest side of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Englewood,_Chicago"
+        },
+    "Gage Park":
+        {
+            "description": "Gage Park is one of Chicago's 77 well-defined community areas, located on the city's southwest side; it is also the name of a park within the neighborhood. Gage Park's population is largely working-class, and its housing stock is mostly bungalows. For generations, the neighborhood was Eastern European and Irish Catholic. The neighborhood remains overwhelmingly Catholic with the addition of many Hispanic residents.",
+            "link": "https://en.wikipedia.org/wiki/Gage_Park,_Chicago"
+        },
+    "West Elsdon":
+        {
+            "description": "West Elsdon, one of the 77 official community areas, is located on the southwest side of the City of Chicago, Illinois. It is noted as a twin neighborhood of West Lawn. It has a population which includes a mix of dwindling Polish-American residents and increasing Mexican-American residents who currently constitute a clear majority. It has its own association, \"West Elsdon Civic Association,\" which privately organizes the neighborhood. St. Turibius grade school, a Roman Catholic elementary school, located at 57th and Karlov, closed in 2013 and is currently inactive though the building remains and is adjacent to St. Turibius Roman Catholic church. The former Lourdes Roman Catholic girls' high school located from 55th to 56th street from Komensky to Karlov Avenue is now a Chicago Public Schools magnet high school, John Hancock High School.",
+            "link": "https://en.wikipedia.org/wiki/West_Elsdon,_Chicago"
+        },
+    "Garfield Ridge":
+        {
+            "description": "Garfield Ridge is one of the 77 official community areas of Chicago, Illinois, United States, and is located on the southwest side of the city. The northern half of Midway International Airport is located in this community area.",
+            "link": "https://en.wikipedia.org/wiki/Garfield_Ridge,_Chicago"
+        },
+    "Clearing":
+        {
+            "description": "Clearing, one of the 77 official community areas, is located on the southwest side of the city of Chicago, Illinois. The southern portion of Chicago Midway International Airport is located within this community area.",
+            "link": "https://en.wikipedia.org/wiki/Clearing,_Chicago"
+        },
+    "West Lawn":
+        {
+            "description": "West Lawn, one of Chicago's 77 official community areas, is located on the southwest side of the city. It is considered to be a \"melting pot\" of sorts, due to its constant change of races moving in and out of the area, as well as the diversity that exists there. It has a small town atmosphere in the big city. West Lawn is home to many Polish-Americans, Irish-Americans, Mexican-Americans, and other people of Latin American and Eastern European origin. The current Alderman of the West Lawn community is Alderman Marty Quinn.",
+            "link": "https://en.wikipedia.org/wiki/West_Lawn,_Chicago"
+        },
+    "Chicago Lawn":
+        {
+            "description": "Chicago Lawn is one of the 77 community areas of Chicago, Illinois. It is located on the southwest side of the city. Its community neighbors include Gage Park, West Englewood, Ashburn, and West Lawn. It is bounded by Bell Avenue on the east, Central Park Avenue on the west, 59th Street on the north, and 75th Street on the south, and is 13 km (8.1 mi) southwest of the Loop. Local citizens refer to the area as \"Marquette Park,\" after the park in its center.",
+            "link": "https://en.wikipedia.org/wiki/Chicago_Lawn,_Chicago"
+        },
+    "Jackson Park":
+        {
+            "description": "Jackson Park is a 500-acre (2 km²) park located at 6401 South Stony Island Avenue in the Woodlawn community area on South Side in Chicago, Illinois. It extends into the South Shore and Hyde Park community areas, bordering Lake Michigan and several South Side neighborhoods. Named for US President Andrew Jackson, it is one of two Chicago Park District parks with the name \"Jackson\", the other being Mahalia Jackson Park in the Auburn Gresham community area on the far southwest side of Chicago. The parkland was first developed as the host site of the Chicago World's Fair in 1893, memorialized today by the Statue of The Republic. The Museum of Science and Industry resides in the remaining \"palace\" in the park from that era, and a Japanese garden traces its history to the fair. The park includes woodland trails, playing fields, a beach, a golf course, and a boat harbor. It is the potential future site of the Barack Obama Presidential Center and library.",
+            "link": "https://en.wikipedia.org/wiki/Jackson_Park_(Chicago)"
+        },
+    "Woodlawn":
+        {
+            "description": "Woodlawn, on the South Side of Chicago, Illinois, is one of Chicago's 77 community areas. It is bounded by Lake Michigan to the east, 60th Street to the north, Martin Luther King Drive to the west, and 67th Street to the south. Both Hyde Park Career Academy and the all-boys Catholic Mount Carmel High School are in this neighborhood; much of its eastern portion is occupied by Jackson Park. The Woodlawn section of the park includes the site of the planned Obama Presidential Library, an estimated $500 Million Investment. The northern edge of Woodlawn contains a portion of the campus of the University of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Woodlawn,_Chicago"
+        },
+    "South Shore":
+        {
+            "description": "South Shore is one of 77 defined community areas of Chicago, Illinois, United States. A predominantly African American neighborhood on the city's South Side, the area is named for its location along the city's southern lakefront. Although South Shore has seen a greater than 40% decrease in residents since Chicago's population peaked in the 1950s, the area remains is one of the most densely populated neighborhoods on the South Side. The community benefits from its location along the waterfront, its accessibility to Lake Shore Drive, and its proximity to major institutions and attractions such as the University of Chicago, the Museum of Science and Industry, and Jackson Park.",
+            "link": "https://en.wikipedia.org/wiki/South_Shore,_Chicago"
+        },
+    "Grand Crossing":
+        {
+            "description": "The name \"Grand Crossing\" comes from an 1853 right-of-way feud between the Lake Shore and Michigan Southern Railway and the Illinois Central Railroad that led to a frog war and a crash that killed 18 people.The crash was the result of Chicago mayor Roswell B. Mason illegally constructing railroad tracks across another railroad company's tracks. Due to the lack of safety at the crossing, trains made complete stops here and therefore industry developed around the area to cater to the railroad workers of mostly Irish, Scottish, English, and German descent. The area was further developed by Paul Cornell throughout the 1870s and grade separation occurred at the rail crossing in 1912.",
+            "link": "https://en.wikipedia.org/wiki/Greater_Grand_Crossing,_Chicago"
+        },
+    "South Chicago":
+        {
+            "description": "South Chicago, formerly known as Ainsworth, is one of the 77 well-defined community areas of Chicago, Illinois. This chevron-shaped community is one of Chicago's 16 lakefront neighborhoods near the southern rim of Lake Michigan 10 miles south of downtown. A working-class neighborhood, it is bordered by East 79th Street on the north, South Chicago Avenue (the Chicago Skyway) on the southwest, a small stretch of East 95th Street on the south. With the Calumet River on the community's southeast side, South Chicago can be considered the literal gateway to the Calumet Region and the first among the four Chicago neighborhoods (East Side, Hegewisch and South Deering) that are considered by the locals as Chicago's Southeast Side. The Southeast Side is a description that, although true, the city itself continues to resist including this neighborhood with all of Chicago's South Side communities.",
+            "link": "https://en.wikipedia.org/wiki/South_Chicago,_Chicago"
+        },
+    "Avalon Park":
+        {
+            "description": "Avalon Park, located on the south side of the U.S. city of Chicago, Illinois, is one of the city's 77 official community areas and a park. Boundaries are 76th St. to the north, South Chicago Ave. to the east and 87th St. to the south. The community area includes the neighborhoods of Avalon Park, Marynook and Stony Island Park.",
+            "link": "https://en.wikipedia.org/wiki/Avalon_Park,_Chicago"
+        },
+    "Calumet Heights":
+        {
+            "description": "Calumet Heights was swampy and relatively unoccupied throughout the nineteenth century. In 1870, the Calumet and Chicago Canal Dock Company purchased the Stony Island Ridge. A railroad was built in 1881 along the western border of Calumet Heights leading to the development of the neighborhood. The area became part of the Village of Hyde Park in 1889. Shortly thereafter, Hyde Park Township was annexed by Chicago. During the Chicago Freedom Movement, Calumet Heights was one of the few areas in which Martin Luther King Jr. received a positive reception in which he was hosted by a Calumet Heights business owner. During this same period, Dr. King was hit with a brick during a march in a white-majority area of Chicago.",
+            "link": "https://en.wikipedia.org/wiki/Calumet_Heights,_Chicago"
+        },
+    "Chatham":
+        {
+            "description": "Chatham is one of the 77 community areas of the city of Chicago, Illinois. It is located on the city's South Side. It includes the neighborhoods of Chatham, East Chatham, West Chatham and the northern portion of West Chesterfield. Its residents are predominantly African American, and it is home to former Senator Roland Burris. Housing many city employees and other officials, Chatham has been a central area for Chicago's middle-class African Americans since the late 1950s.",
+            "link": "https://en.wikipedia.org/wiki/Chatham,_Chicago"
+        },
+    "Burnside":
+        {
+            "description": "Burnside is one of the 77 official community areas of Chicago, Illinois, and is located on the city's south side. This area is also called by locals, \"The Triangle\", as it is bordered by railroad tracks on every side; the Illinois Central on the west, the Rock Island on the south and the Nickel Plate Railroad (now Norfolk-Southern) on the east. Originally considered part of Roseland and the Chatham communities, it was distinguished as one of the 77 Chicago communities when the University of Chicago established its official map of Chicago communities. The area was mostly undeveloped swamp land north of Lake Calumet until after the American Civil War. The Illinois Central Railroad (ICRR) built the Burnside Station at 95th street and named it after Ambrose Burnside, a Civil War general and official of the ICRR.",
+            "link": "https://en.wikipedia.org/wiki/Burnside,_Chicago"
+        },
+    "Auburn Gresham":
+        {
+            "description": "Auburn Gresham, most commonly referred to simply as \"Gresham\", is one of the 77 official community areas of the city of Chicago, Illinois. It is located on the far south side of the city and was the original location of the South Side Irish Parade before it was relocated to the Beverly neighborhood farther southwest in the city.",
+            "link": "https://en.wikipedia.org/wiki/Auburn_Gresham,_Chicago"
+        },
+    "Ashburn":
+        {
+            "description": "Ashburn, which got its name as the dumping site for the city's ashes, was slow to experience growth at the beginning of the 20th century. In 1893, the \"Clarkdale\" subdivision was planned near 83rd and Central Park Avenue along the new Chicago & Grand Trunk Railway, with 19 homes in the first 50 years. The early residents were Dutch, Swedish and Irish. Ashburn opened the first airfield in Chicago in 1916, becoming the home to the E. M. Laird Airplane Company. The marshy airfield closed in 1939. The post-World War II economic boom, the industrial boom of Ford City, and the baby boom all contributed to a population boom in the 1950s and 1960s. Affordable home prices and close proximity to the Chicago Loop helped the boom. Before Bogan High School was built, and before the area west of Pulaski Road was developed, ash 'heaps' were visible in the area south of Ford City but north of 79th Street.",
+            "link": "https://en.wikipedia.org/wiki/Ashburn,_Chicago"
+        },
+    "East Side":
+        {
+            "description": "East Side is one of the 77 official community areas of Chicago, Illinois. It is located on the far south side of the city, between the Calumet River and the Illinois-Indiana state line, approximately 13 miles (21 km) south of Downtown Chicago. The neighborhood has its own park on Lake Michigan, Calumet Park, and its own forest preserve, Eggers Grove Forest Preserve, which neighborhood residents usually call Eggers Woods. It is served by U.S. Highway 12, U.S. Highway 20, and U.S. Highway 41, which are multiplexed in this neighborhood.",
+            "link": "https://en.wikipedia.org/wiki/East_Side,_Chicago"
+        },
+    "South Deering":
+        {
+            "description": "South Deering, located on Chicago's far South Side, is the largest of the 77 official community areas of that city. It is part of the 10th Ward, once under the control of former Richard J. Daley ally Alderman Edward Vrdolyak. Primarily an industrial neighborhood, a small group of homes exists in the northeast corner and Lake Calumet takes up a large portion of the area. 80% of the community is zoned as industrial, natural wetlands, or parks. The remaining 20% is zoned for residential and small-scale commercial uses. It is the location of Calumet Fisheries, an historic seafood restaurant that opened in 1928 and has been featured on Anthony Bourdain: No Reservations. The original Calumet Bakery store, a south side favorite since 1935, is located at 2510 E 106th St, Chicago, IL 60617. It was also the location of the Wisconsin Steel Works, originally the Joseph H. Brown Iron and Steel Company, which opened in 1875 and closed in 1980. Since the closing of the steel mill, the neighborhood has encountered economic depression. Louis Rosen documented the racial transition of this and nearby communities in his 1998 book The South Side: The Racial Transformation of an American Neighborhood.",
+            "link": "https://en.wikipedia.org/wiki/South_Deering,_Chicago"
+        },
+    "Pullman":
+        {
+            "description": "Pullman, one of Chicago's 77 defined community areas, is a neighborhood located on the city's South Side. Twelve miles from the Chicago Loop, Pullman is situated adjacent to Lake Calumet. The area known as Pullman encompasses a much wider area than its two historic areas (the older historic area is often referred to as \"Pullman\" and is a Chicago Landmark district and a National Monument. The northern annex historic area is usually referred to as \"North Pullman\"). This article deals with all areas. The development built by the Pullman Company is bounded by 103rd Street on the North, 115th Street on the South, the railroad tracks on the East and Cottage Grove on the West. Since the late 20th century, the Pullman neighborhood has been gentrifying. Many residents are involved in the restoration of their own homes, and projects throughout the district as a whole. Walking tours of Pullman are available. Pullman has many historic and architecturally significant buildings; among these are the Hotel Florence; the Arcade Building, which was destroyed in the 1920s; the Clock Tower and Factory, the complex surrounding Market Square, and Greenstone Church. In the adjacent Kensington neighborhood of the nearby Roseland district is the home of one of the many beautiful churches in Chicago built in Polish Cathedral style, the former church of St. Salomea. It is now used by Salem Baptist Church of Chicago. In a contest sponsored by the Illinois Department of Commerce and Economic Opportunity, Pullman was one of seven sites nominated for the Illinois Seven Wonders.",
+            "link": "https://en.wikipedia.org/wiki/Pullman,_Chicago"
+        },
+    "Roseland":
+        {
+            "description": "Roseland, located on the far south side of the city, is one of the 77 official community areas of Chicago, Illinois. It includes the neighborhoods of Fernwood, Princeton Park, Lilydale, the southern portion of West Chesterfield, Rosemoor, Sheldon Heights and West Roseland.",
+            "link": "https://en.wikipedia.org/wiki/Roseland,_Chicago"
+        },
+    "Hegewisch":
+        {
+            "description": "Hegewisch is one of the 77 community areas of Chicago, Illinois, located on the city's far south side. It is bordered by the neighborhoods of Riverdale and South Deering to the west, the East Side to the north, the village of Burnham to the south and the city of Hammond, Indiana to the east. The community area is named for Adolph Hegewisch, the president of U.S. Rolling Stock Company who hoped to establish “an ideal workingman's community” when he laid out the town along a rail line in 1883, six years before Chicago annexed the town.",
+            "link": "https://en.wikipedia.org/wiki/Hegewisch,_Chicago"
+        },
+    "Riverdale":
+        {
+            "description": "Riverdale is one of the 77 official community areas of Chicago, Illinois and is located on the city's far southeast side. As originally designated by the Social Science Research Committee at the University of Chicago and officially adopted by the City of Chicago, the Riverdale community area extends from 115th Street south to the city boundary at 138th Street and from the Illinois Central Railroad tracks east to the Bishop Ford Freeway.",
+            "link": "https://en.wikipedia.org/wiki/Riverdale,_Chicago"
+        },
+    "West Pullman":
+        {
+            "description": "West Pullman is a neighborhood located on the far south side of the city of Chicago, Illinois. It is one of the 77 official community areas of Chicago. West Pullman is not a part of the historic Pullman company town. It is bounded on the north by 115th Street, on the east by the former Illinois Central Railroad, on the south by the Calumet River and Riverdale, on the west by Calumet Park, Blue Island and Ashland Avenue.",
+            "link": "https://en.wikipedia.org/wiki/West_Pullman,_Chicago"
+        },
+    "Morgan Park":
+        {
+            "description": "Morgan Park, located on the far south side of the city of Chicago, Illinois, United States, is one of the city's 77 official community areas",
+            "link": "https://en.wikipedia.org/wiki/Morgan_Park,_Chicago"
+        },
+    "Washington Heights":
+        {
+            "description": "Washington Heights, one of the 77 official community areas, is located on the far south side of the city of Chicago, Illinois.",
+            "link": "https://en.wikipedia.org/wiki/Washington_Heights,_Chicago"
+        },
+    "Beverly":
+        {
+            "description": "Beverly is one of the 77 community areas of Chicago, Illinois, on the South Side at the southwestern edge of the city. The borders are 87th Street on the north; Beverly Avenue, Hale Avenue and Vincennes Road on the east; 107th Street on the south; and Francisco Avenue and Western Avenue on the west. Sparsely settled until the late 19th century, Beverly was developed by business interests from Chicago, encouraged by the completion in 1889 of the Rock Island Railroad suburban line that runs parallel with the eastern edge of the Blue Island ridge. Its position on the ridge allowed the community to become an exclusive streetcar suburb, and the homes and large lots reflect this.",
+            "link": "https://en.wikipedia.org/wiki/Beverly,_Chicago"
+        },
+    "Mount Greenwood":
+        {
+            "description": "Mount Greenwood, located on the southwest side, is one of the seventy-seven community areas of Chicago. Mount Greenwood is about 14 miles southwest of the Loop. It is surrounded by the neighborhoods of Beverly and Morgan Park to the east, the suburb of Evergreen Park to the north, the suburb of Oak Lawn to the west, and the suburbs of Merrionette Park and Alsip to the south. Mount Greenwood is known as the home of many Chicago firefighters, Chicago police officers and union workers.",
+            "link": "https://en.wikipedia.org/wiki/Mount_Greenwood,_Chicago"
+        },
+    "Avondale":
+        {
+            "description": "Avondale is one of 77 officially designated community areas. It is located on the Northwest Side of Chicago. The northern border is the Addison Street from the north branch of the Chicago River in the east to Pulaski Road in the west. The neighborhood extends further west along Belmont Avenue to the Union Pacific / Northwest Line. Its southern border is Diversey Avenue from the Union Pacific/Northwest Line to the Chicago River.",
+            "link": "https://en.wikipedia.org/wiki/Avondale,_Chicago"
+        }
+}
+

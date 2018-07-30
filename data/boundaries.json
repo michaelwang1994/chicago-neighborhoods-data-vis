@@ -973,7 +973,7 @@
     {
      "type": "MultiPolygon", 
      "properties": {
-      "pri_neigh": "O'Hare", 
+      "pri_neigh": "O Hare", 
       "shape_area": "371835607.687", 
       "sec_neigh": "OHARE", 
       "shape_len": "173625.98466"

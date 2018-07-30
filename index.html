@@ -34,7 +34,7 @@
     "<li><b>% Aged >25 w/o High School (H.S.) Diploma</b></li>" +
     "<li><b>% Housing Crowded</b>: occupied housing units with more than one person per room.</li>" +
     "<li><b>Per Capita Income</b>: this estimated by dividing the aggregate income of the census tracts within the community area by the number of residents. Our visualization calculates the percentile of the per capita income within Chicago.</li><br>" +
-    "Feel free to move your mouse over the different community areas to learn more about each area and to see their respective hardship index levels and socioeconomic factors. Try starting with the <b>Loop</b>.<br><br>" +
+    "Feel free to move your mouse over the different community areas to learn more about each area and to see their respective hardship index levels and socioeconomic factors. You can also click on the map to go to the community area wikipedia page. Try starting with the <b>Loop</b>.<br><br>" +
     "For more details, please see the <a href=data/Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf target=_blank>dataset description</a>.<br><br>"
 
   d3.json("data/boundaries-with-census-data.json", function(error, us) {
@@ -147,7 +147,9 @@
                 return green_to_red([d / 100.0 - 0.5]); });
 
         text_body
-          .html("<b>" + d.properties.pri_neigh + "</b>");
+          .html(
+            "<b>" + d.properties.pri_neigh + "</b><br><br>" +
+            d.properties.details.description);
         })
 
       .on("mouseout", function(d) {
@@ -161,6 +163,12 @@
 
         d3.select(this)
           .style("fill", green_to_red([color_to_return]))
+      })
+
+      .on("click", function(d) {
+        if (!enabled) return;
+
+
       })
     });
 

@@ -12,6 +12,9 @@ with open('data/boundaries.json') as boundaries:
 with open('data/neighborhood_to_community_area.json') as neighborhood_to_community_area:
     neighborhood_to_community_area_data = json.load(neighborhood_to_community_area)
 
+with open ('data/chicago_neighborhood_descriptions.json') as chicago_neighborhood_descriptions:
+    chicago_neighborhood_descriptions_data = json.load(chicago_neighborhood_descriptions)
+
 neighborhoods = boundaries_data['objects']['boundaries']['geometries']
 neighborhoods_with_census_data = []
 
@@ -46,6 +49,10 @@ for neighborhood in neighborhoods:
         
         neighborhood_census_data_dict[formatted_key] = value
     neighborhood_properties['census_data'] = neighborhood_census_data_dict
+    try:
+        neighborhood_properties['details'] = chicago_neighborhood_descriptions_data[neighborhood_properties['pri_neigh']]
+    except Exception as e:
+        pass
     neighborhoods_with_census_data.append(neighborhood)
 
 with open('data/boundaries-with-census-data.json', 'w') as boundaries_with_census_data:
