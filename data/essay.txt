@@ -1,0 +1,11 @@
+For my final project, I decided to use the same data source as my midterm project: the Chicago Census data.
+I used a martini structure to give the readers an introduction to the topic and terms (e.g. "Hardship Index") and so that they could be familiar with the interface.
+Furthermore, due to the high number of Chicago neighborhoods, the martini structure made sense as it allowed users to go through each of the neighborhoods one-by-one.
+
+The first scene introduces the reader to the topic. They are forced to stay on this first scene until they press "Continue". As the user moves his/her mouse across the map, each neighborhood would display its relevant statistics and description, indicating a change in scene.
+I've also added a "highlight" color, so the reader can keep track of which neighborhood he/she is looking at.
+
+I've placed annotations in the form of a summary of the neighborhood from wikipedia. It is up to the reader how much he/she wants to read. If he/she is interested, they can click on the map and go the wikipedia page directly.
+
+The parameters and triggers that impact the visualization are your mouse position and if you have moused-over a neighborhood already. As you move over each neighborhood, they get colored with respect to their hardship index. They remain colored even when you mouse-out the neighbhorhood.
+As they mouse-over each state and observe the effect, they should come to an intuitive understanding of how it works.
