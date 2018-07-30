@@ -34,7 +34,7 @@
     "<li><b>% Aged >25 w/o High School (H.S.) Diploma</b></li>" +
     "<li><b>% Housing Crowded</b>: occupied housing units with more than one person per room.</li>" +
     "<li><b>Per Capita Income</b>: this estimated by dividing the aggregate income of the census tracts within the community area by the number of residents. Our visualization calculates the percentile of the per capita income within Chicago.</li><br>" +
-    "Feel free to move your mouse over the different community areas to learn more about each area and to see their respective hardship index levels and socioeconomic factors. You can also click on the map to go to the community area wikipedia page. Try starting with the <b>Loop</b>.<br><br>" +
+    "Feel free to move your mouse over the different community areas to learn more about each area and to see their respective hardship index levels and socioeconomic factors. You can also <b>click</b> on the map to go to the community area wikipedia page. Try starting with the <b>Loop</b>.<br><br>" +
     "For more details, please see the <a href=data/Dataset_Description_socioeconomic_indicators_2012_FOR_PORTAL_ONLY.pdf target=_blank>dataset description</a>.<br><br>"
 
   d3.json("data/boundaries-with-census-data.json", function(error, us) {
@@ -64,6 +64,17 @@
         .on("click", function(d) {
           d3.select(".overlay").style("background-color", "white")
           d3.selectAll(".community-area").style("fill", "white")
+          d3.select(".map")
+            .append("circle")
+            .attr("cx", "300")
+            .attr("cy", "300")
+            .attr("r", "30")
+            .attr("stroke", "black")
+            .attr("stroke-width", "3")
+            .attr("fill", "rgba(255, 255, 255, 0)")
+            .on("mouseover", function (d) {
+              d3.select(this).remove();
+            });
           enabled = true;
         })
 
@@ -168,7 +179,10 @@
       .on("click", function(d) {
         if (!enabled) return;
 
-
+        window.open(
+          d.properties.details.link,
+          '_blank'
+    );
       })
     });
 
